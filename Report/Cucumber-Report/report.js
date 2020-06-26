@@ -101,21 +101,21 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 4263483500,
+  "duration": 2573262500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_Salesforce_application()"
 });
 formatter.result({
-  "duration": 2642296200,
+  "duration": 1851607700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 90718800,
+  "duration": 53334900,
   "status": "passed"
 });
 formatter.scenario({
@@ -162,7 +162,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 141203500,
+  "duration": 207261500,
   "status": "passed"
 });
 formatter.match({
@@ -175,21 +175,21 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 76066700,
+  "duration": 89231900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 781127900,
+  "duration": 1006601800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 2244850800,
+  "duration": 1229327600,
   "status": "passed"
 });
 formatter.background({
@@ -218,21 +218,21 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3267199900,
+  "duration": 1645561900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_Salesforce_application()"
 });
 formatter.result({
-  "duration": 2482386700,
+  "duration": 3541813300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 37224500,
+  "duration": 52065600,
   "status": "passed"
 });
 formatter.scenario({
@@ -279,7 +279,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 126920300,
+  "duration": 176824800,
   "status": "passed"
 });
 formatter.match({
@@ -292,21 +292,21 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 88937600,
+  "duration": 78158700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 766368600,
+  "duration": 4065654100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 1185316700,
+  "duration": 20140700,
   "status": "passed"
 });
 formatter.background({
@@ -335,21 +335,21 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3272153000,
+  "duration": 1649471300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_Salesforce_application()"
 });
 formatter.result({
-  "duration": 2504643900,
+  "duration": 3907255200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 38410300,
+  "duration": 51808300,
   "status": "passed"
 });
 formatter.scenario({
@@ -396,7 +396,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 109080600,
+  "duration": 237022000,
   "status": "passed"
 });
 formatter.match({
@@ -409,21 +409,21 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 75140000,
+  "duration": 104290800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 747308800,
+  "duration": 852347900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 2797274600,
+  "duration": 2080620400,
   "status": "passed"
 });
 });

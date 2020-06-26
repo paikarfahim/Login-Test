@@ -6,6 +6,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -18,11 +21,15 @@ public class LoginTest extends UtilitiesCucumber {
 
 	@Given("^I Open Chrome Browser$")
 	public void I_Open_Chrome_Browser() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\fahim\\OneDrive\\Documents\\Selenium\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+//		System.setProperty("webdriver.chrome.driver",
+//				"C:\\Users\\fahim\\OneDrive\\Documents\\Selenium\\chromedriver.exe");
+//		driver = new ChromeDriver();
+//		
+		DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs.exe");
+        driver = new PhantomJSDriver(caps);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
 	@When("^I go to Salesforce application$")

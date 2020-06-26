@@ -23,7 +23,7 @@
 				<version>2.18.1</version>
 				<configuration>
 					<includes>
-						<!-- <exclude>**/**/*Runner.java</exclude>-->
+						<!-- <exclude>**/**/*Runner.java</exclude> -->
 						<exclude>**/**/${Runner}.java</exclude>
 						<name>Runner</name>
 						<value>${Runner}</value>
@@ -54,6 +54,13 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 		<dependency>
 			<groupId>info.cukes</groupId>
