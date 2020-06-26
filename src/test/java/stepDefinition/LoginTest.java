@@ -22,7 +22,7 @@ public class LoginTest extends UtilitiesCucumber {
 	@Given("^I Open Chrome Browser$")
 	public void I_Open_Chrome_Browser() {
 //		System.setProperty("webdriver.chrome.driver",
-//				"C:\\Users\\fahim\\OneDrive\\Documents\\Selenium\\chromedriver.exe");
+//				System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 //		driver = new ChromeDriver();
 //		
 		DesiredCapabilities caps = new DesiredCapabilities();
